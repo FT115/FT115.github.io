@@ -346,6 +346,18 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
     </div>
 </div>
 
+<div class="project-card">
+    <div class="project-img-col">
+        <img src="/assets/images/projects/TC-1.png" alt="Bridge Inspection 1">
+        <img src="/assets/images/projects/TC-2.png" alt="Bridge Inspection 2">
+        <img src="/assets/images/projects/TC-3.png" alt="Bridge Inspection 3">
+    </div>
+    <div class="project-text">
+        <b>Full-coverage UAV Inspection & Coating Defect Evaluation for Railway Steel Truss Bridge</b>
+        <p>Targeting large steel truss bridges for High-speed Railway, I took charge of core technical research on all-dimensional UAV inspection technology covering bridge top, side girders and complex under-bridge zones. Independently designed multi-set obstacle avoidance flight modes and zigzag aerial survey schemes adapted to narrow, obstructed bridge bottoms, and led multi-batch field flight tests and on-site verification works. I constructed the full technical workflow of coating defect recognition, quantitative risk grading and accurate defect spatial traceability relying on UAV high-definition aerial imagery, supporting long-term bridge disease comparative analysis and structural safety evaluation.</p>
+    </div>
+</div>
+
 ## Honors & Social Practice
 
 ### Academic & Competition Awards
