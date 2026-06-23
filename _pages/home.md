@@ -100,7 +100,7 @@ My detailed resume is linked [here](/assets/pdf/cv.pdf).
 
 <div class="row">
     <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
-        <a href="/assets/images/publications/YOLARC.png"><img src="/assets/images/publications/catenary_defect.png"></a>
+        <a href="/assets/images/publications/YOLARC.png"><img src="/assets/images/publications/YOLARC.png"></a>
     </div>
     <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
         <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>Automated anomaly detection of catenary split pins using unsupervised learning</b></p>
