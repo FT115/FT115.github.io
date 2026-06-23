@@ -358,9 +358,8 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
     </div>
 </div>
 
-## Honors & Social Practice
 
-### Honors & Competition Awards
+## Honors & Competition Awards
 1. Silver Award, 14th Challenge Cup National College Students' Entrepreneurship Competition Belt and Road International Invitational, 2024
 2. Silver Award, "Qingchuang Beijing" Capital College Students Challenge Cup Entrepreneurship Competition, 2024
 3. Second Place, Beijing Jiaotong University Summer Deep Learning Championship, 2022
@@ -370,7 +369,9 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
 7. Provincial First Prize, 12th National College Students Mathematics Competition, 2020
 8. Provincial First Prize, 7th College Students Physics Competition, 2020
 
-### Social Work & Other Services
-1. Research group core coordinator: Responsible for internal task allocation, algorithm training scheduling and field test organization; communicate with railway front-line maintenance teams, equipment manufacturers and public security departments to guarantee large-scale field experiments.
-2. Science popularization volunteer: Carry out artificial intelligence & UAV technology popularization activities for undergraduates, guide junior students to get started with railway intelligent inspection research, share field debugging experience and algorithm optimization skills.
-3. Media science communication participant: Cooperate with China Science News, participate in Focus Interview youth special program recording, interpret rail transit intelligent inspection technology to the public with plain language.
+## Services
+Reviewer: *T-ITS, AEI, ESWA* 
+
+## Skills
+
+Python / C++ / Matlab, PyTorch, Linux, ROS, OpenCV, DJI-PSDK
