@@ -359,19 +359,282 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
 </div>
 
 
+## Patents
+
+<style>
+/* ===== Shared card & badge styles ===== */
+.section-card {
+    background: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 0 0 18px 0;
+    transition: box-shadow 0.25s ease;
+}
+.section-card:hover {
+    box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+}
+.status-badge {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 12px;
+    border-radius: 11px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+.badge-granted {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+.badge-published {
+    background: #fff3e0;
+    color: #e65100;
+    border: 1px solid #ffcc80;
+}
+.badge-pending {
+    background: #e3f2fd;
+    color: #0d47a1;
+    border: 1px solid #90caf9;
+}
+
+/* ===== Patents grid ===== */
+.patent-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin: 10px 0 28px 0;
+}
+.patent-grid .patent-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 16px;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #e8e8e8;
+    transition: box-shadow 0.25s ease;
+}
+.patent-grid .patent-item:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.patent-grid .patent-item img {
+    width: 90px;
+    height: auto;
+    border-radius: 5px;
+    flex-shrink: 0;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.12);
+}
+.patent-grid .patent-item .patent-info {
+    flex: 1;
+    min-width: 0;
+}
+.patent-grid .patent-item .patent-info .patent-title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #333;
+}
+.patent-grid .patent-item .patent-info .patent-meta {
+    font-size: 13px;
+    color: #888;
+    margin-top: 4px;
+}
+.patent-subhead {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 22px 0 4px 0;
+    color: #444;
+}
+
+/* ===== Honors timeline cards ===== */
+.honor-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 6px 0 0 0;
+}
+.honor-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 18px;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #e8e8e8;
+    transition: box-shadow 0.25s ease;
+}
+.honor-item:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.honor-year {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    text-align: center;
+}
+.honor-text {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* ===== Reviewer card ===== */
+.reviewer-journals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 4px;
+}
+.reviewer-tag {
+    display: inline-block;
+    padding: 6px 16px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.25s ease;
+}
+.reviewer-tag:hover {
+    border-color: #667eea;
+    color: #667eea;
+    box-shadow: 0 2px 8px rgba(102,126,234,0.15);
+}
+
+/* ===== Skills tag cloud ===== */
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 4px;
+}
+.skill-tag {
+    display: inline-block;
+    padding: 7px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.skill-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.skill-lang  { background: #e3f2fd; color: #1565c0; }
+.skill-dl    { background: #fce4ec; color: #c62828; }
+.skill-sys   { background: #e8f5e9; color: #2e7d32; }
+.skill-robot { background: #fff3e0; color: #e65100; }
+.skill-cv    { background: #f3e5f5; color: #6a1b9a; }
+.skill-hw    { background: #e0f7fa; color: #00695c; }
+</style>
+
+<!-- Granted patents -->
+<p class="patent-subhead">🔒 Granted Patents</p>
+<div class="patent-grid">
+    <div class="patent-item">
+        <img src="/assets/images/patents/p1.png" alt="Patent 1">
+        <div class="patent-info">
+            <span class="status-badge badge-granted">Granted</span>
+            <div class="patent-title">UAV Route Generation Method for Transportation Facility Inspection under GNSS-denied Environments</div>
+        </div>
+    </div>
+    <div class="patent-item">
+        <img src="/assets/images/patents/p2.png" alt="Patent 2">
+        <div class="patent-info">
+            <span class="status-badge badge-granted">Granted</span>
+            <div class="patent-title">Cross-modal Adaptive Matching Based Online Extrinsic Calibration Method and System for LiDAR and Camera</div>
+        </div>
+    </div>
+</div>
+
+<!-- Published patents -->
+<p class="patent-subhead">📄 Published Patent Applications</p>
+<div class="patent-grid">
+    <div class="patent-item">
+        <div class="patent-info">
+            <span class="status-badge badge-published">Published</span>
+            <div class="patent-title">Unknown Risk Identification Method for Railway Surrounding Environment Using UAV Remote Sensing Images</div>
+        </div>
+    </div>
+    <div class="patent-item">
+        <div class="patent-info">
+            <span class="status-badge badge-published">Published</span>
+            <div class="patent-title">Refined Catenary Split Pin Defect Recognition Method for Railway Catenary</div>
+        </div>
+    </div>
+    <div class="patent-item">
+        <div class="patent-info">
+            <span class="status-badge badge-published">Published</span>
+            <div class="patent-title">Coating Corrosion Detection, Assessment Method and System for Railway Steel Truss Bridges</div>
+        </div>
+    </div>
+    <div class="patent-item">
+        <div class="patent-info">
+            <span class="status-badge badge-published">Published</span>
+            <div class="patent-title">Railway Environmental Hazard Identification and Risk Level Assessment Method Based on UAV Images</div>
+        </div>
+    </div>
+</div>
+
+<!-- Pending patents -->
+<p class="patent-subhead">🔶 Pending (US Patent)</p>
+<div class="patent-grid">
+    <div class="patent-item">
+        <div class="patent-info">
+            <span class="status-badge badge-pending">Pending</span>
+            <div class="patent-title">Autonomous Unmanned Aerial Vehicle Based Intelligent Inspection System for Equipment, Facilities, and the Environment along Railway Lines and Method Thereof</div>
+        </div>
+    </div>
+</div>
+
 ## Honors & Competition Awards
-1. Silver Award, 14th Challenge Cup National College Students' Entrepreneurship Competition Belt and Road International Invitational, 2024
-2. Silver Award, "Qingchuang Beijing" Capital College Students Challenge Cup Entrepreneurship Competition, 2024
-3. Second Place, Beijing Jiaotong University Summer Deep Learning Championship, 2022
-4. First Prize, China Transportation Outstanding Student Award, 2021
-5. Provincial First Prize, 7th National College Students Engineering Training Integration Ability Competition, 2021
-6. Provincial Merit Student, 2021
-7. Provincial First Prize, 12th National College Students Mathematics Competition, 2020
-8. Provincial First Prize, 7th College Students Physics Competition, 2020
+
+<div class="honor-list">
+    <div class="honor-item"><div class="honor-year">2024</div><div class="honor-text">Silver Award, 14th Challenge Cup National College Students' Entrepreneurship Competition Belt and Road International Invitational</div></div>
+    <div class="honor-item"><div class="honor-year">2024</div><div class="honor-text">Silver Award, "Qingchuang Beijing" Capital College Students Challenge Cup Entrepreneurship Competition</div></div>
+    <div class="honor-item"><div class="honor-year">2022</div><div class="honor-text">Second Place, Beijing Jiaotong University Summer Deep Learning Championship</div></div>
+    <div class="honor-item"><div class="honor-year">2021</div><div class="honor-text">First Prize, China Transportation Outstanding Student Award</div></div>
+    <div class="honor-item"><div class="honor-year">2021</div><div class="honor-text">Provincial First Prize, 7th National College Students Engineering Training Integration Ability Competition</div></div>
+    <div class="honor-item"><div class="honor-year">2021</div><div class="honor-text">Provincial Merit Student</div></div>
+    <div class="honor-item"><div class="honor-year">2020</div><div class="honor-text">Provincial First Prize, 12th National College Students Mathematics Competition</div></div>
+    <div class="honor-item"><div class="honor-year">2020</div><div class="honor-text">Provincial First Prize, 7th College Students Physics Competition</div></div>
+</div>
 
 ## Services
-Reviewer: *T-ITS, AEI, ESWA* 
+
+<div class="section-card">
+    <p style="margin:0; font-size:15px;"><b style="color:#555;">Journal Reviewer</b></p>
+    <div class="reviewer-journals">
+        <span class="reviewer-tag">📄 T-ITS</span>
+        <span class="reviewer-tag">📄 AEI</span>
+        <span class="reviewer-tag">📄 ESWA</span>
+    </div>
+</div>
 
 ## Skills
 
-Python / C++ / Matlab, PyTorch, Linux, ROS, OpenCV, DJI-PSDK
+<div class="section-card">
+    <div class="skill-tags">
+        <span class="skill-tag skill-lang">🐍 Python</span>
+        <span class="skill-tag skill-lang">⚡ C++</span>
+        <span class="skill-tag skill-lang">📊 Matlab</span>
+        <span class="skill-tag skill-dl">🔥 PyTorch</span>
+        <span class="skill-tag skill-sys">🐧 Linux</span>
+        <span class="skill-tag skill-robot">🤖 ROS</span>
+        <span class="skill-tag skill-cv">👁️ OpenCV</span>
+        <span class="skill-tag skill-hw">🛸 DJI-PSDK</span>
+    </div>
+</div>
