@@ -324,9 +324,9 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
 
 <div class="project-card">
     <div class="project-img-col">
-        <img src="/assets/images/projects/QT.png" alt="UAV Inspection 1">
-        <img src="/assets/images/projects/QT.png" alt="UAV Inspection 2">
-        <img src="/assets/images/projects/QT.png" alt="UAV Inspection 3">
+        <img src="/assets/images/projects/JH-1.png" alt="UAV Inspection 1">
+        <img src="/assets/images/projects/JH-2.png" alt="UAV Inspection 2">
+        <img src="/assets/images/projects/JH-3.png" alt="UAV Inspection 3">
     </div>
     <div class="project-text">
         <b>Fully-automatic UAV Intelligent Inspection System for High-speed Railway</b>
@@ -336,9 +336,9 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
 
 <div class="project-card">
     <div class="project-img-col">
-        <img src="/assets/images/projects/QT.png" alt="Bridge Inspection 1">
-        <img src="/assets/images/projects/QT.png" alt="Bridge Inspection 2">
-        <img src="/assets/images/projects/QT.png" alt="Bridge Inspection 3">
+        <img src="/assets/images/projects/QT-1.png" alt="Bridge Inspection 1">
+        <img src="/assets/images/projects/QT-2.png" alt="Bridge Inspection 2">
+        <img src="/assets/images/projects/QT-3.png" alt="Bridge Inspection 3">
     </div>
     <div class="project-text">
         <b>UAV Intelligent Inspection Technology for Bridges & Rockfall Hazards of Qinghai-Tibet Railway</b>
