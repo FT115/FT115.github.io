@@ -7,7 +7,18 @@
       "Bash(cp \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.pdf\" \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\" && echo \"Copied successfully\" && ls -la \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\")",
       "Bash(pdfinfo \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\")",
       "Bash(rm -f \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.aux\" \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.log\" \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.out\" && echo \"Cleaned up aux files\")",
-      "Bash(cp \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.pdf\" \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\" && rm -f \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.aux\" \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.log\" \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.out\" && echo \"Done — copied & cleaned\")"
+      "Bash(cp \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.pdf\" \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\" && rm -f \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.aux\" \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.log\" \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.out\" && echo \"Done — copied & cleaned\")",
+      "Bash(docker --version)",
+      "Bash(choco --version)",
+      "Read(//c/Program Files/**)",
+      "Read(//c//**)",
+      "Bash(where pdflatex *)",
+      "Read(//mingw64/**)",
+      "Bash(pip install *)",
+      "Bash(npm ls *)",
+      "Bash(docker run *)",
+      "Bash(/c/Users/86156/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pdflatex.exe -interaction=nonstopmode cv.tex)",
+      "Bash(cp \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.pdf\" \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\")"
     ],
     "additionalDirectories": [
       "e:\\Code\\TOOLS\\FT115.github.io\\assets\\cv"
