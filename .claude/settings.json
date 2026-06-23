@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(winget install *)",
+      "Bash(which pdflatex *)",
+      "Read(//c/Users/86156/AppData/Local/Programs/MiKTeX/**)",
+      "Bash(cp \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.pdf\" \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\" && echo \"Copied successfully\" && ls -la \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\")",
+      "Bash(pdfinfo \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\")",
+      "Bash(rm -f \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.aux\" \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.log\" \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.out\" && echo \"Cleaned up aux files\")",
+      "Bash(cp \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.pdf\" \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\" && rm -f \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.aux\" \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.log\" \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.out\" && echo \"Done — copied & cleaned\")"
+    ],
+    "additionalDirectories": [
+      "e:\\Code\\TOOLS\\FT115.github.io\\assets\\cv"
+    ]
+  }
+}
