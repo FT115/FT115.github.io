@@ -7,11 +7,11 @@ permalink: /
 
 # About Me
 
-I am Fanteng Meng, a PhD student majoring in Safety Science and Engineering at Beijing Jiaotong University, Transportation College, Intelligent Systems Department, enrolled in September 2023. My research focuses on intelligent inspection of rail transit based on UAV, machine vision and deep learning. Guided by Professor [Yong Qin](https://trans.bjtu.edu.cn/faculty/B1VKYdp2p4LmrQ5p.html), I devote myself to solving practical operation and maintenance pain points of high-speed railway infrastructure, integrating artificial intelligence, edge computing and UAV flight control technologies to build a full-stack low-altitude intelligent perception system for rail transit.
+I am Fanteng Meng, a PhD student majoring in Safety Science and Engineering at Beijing Jiaotong University, Transportation College, Intelligent Systems Department, enrolled in September 2023. 
 
-My core research directions include fine-grained defect recognition of catenary facilities, multi-scale risk assessment of railway surrounding environments, sparse representation learning for UAV remote sensing images, and automatic UAV inspection system based on Beidou + 5G. Apart from algorithm innovation, I have rich front-line engineering experience: I have completed hundreds of flight tests along Beijing-Shanghai High-speed Railway and Qinghai-Tibet Railway, deployed multiple sets of automatic UAV nest demonstration projects, greatly improving the inspection efficiency compared with traditional manual methods.
+My research focuses on intelligent inspection of rail transit based on UAV, machine vision and deep learning. Guided by Professor [Yong Qin](https://trans.bjtu.edu.cn/faculty/B1VKYdp2p4LmrQ5p.html), I devote myself to solving practical operation and maintenance pain points of high-speed railway infrastructure, integrating artificial intelligence, edge computing and UAV flight control technologies to build a full-stack low-altitude intelligent perception system for rail transit.
 
-Before pursuing my doctoral degree, I laid a solid interdisciplinary foundation covering transportation engineering, computer vision and unmanned aerial vehicle technology. I maintain the academic philosophy of combining theory with engineering practice, and am glad to communicate and cooperate with scholars, engineers and students engaged in intelligent transportation, computer vision and generative model research.
+Before pursuing my doctoral degree, I laid a solid interdisciplinary foundation covering transportation engineering, computer vision and unmanned aerial vehicle technology. I maintain the academic philosophy of combining theory with engineering practice, and am glad to communicate and cooperate with scholars, engineers and students engaged in intelligent transportation, computer vision research.
 
 My detailed resume is linked [here](/assets/pdf/cv.pdf).
 
@@ -280,13 +280,15 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
 
 ## Selected Competition & Engineering Projects
 
-- [**Beidou+5G Fully-automatic UAV Intelligent Inspection System for High-speed Railway**]
+- [**Fully-automatic UAV Intelligent Inspection System for High-speed Railway**]
 
     <p style="font-size: 18px;">This core engineering research project is supported by national key R&D program, where I serve as a core research member responsible for algorithm design, field flight test and system joint debugging. Aiming at the pain points of traditional manual railway inspection such as narrow operation window and high mountainous risk, I designed three original vision algorithms, with target detection & defect recognition recall rate over 96%. We deployed 6 inspection UAVs and 4 automatic drone nests along Beijing-Shanghai & Qinghai-Tibet High-speed Railway, realized monthly normalized inspection in test lines, and increased inspection efficiency by more than 10 times compared with manual work.</p>
 
-- [**Challenge Cup National & Provincial Innovation Competition - UAV Railway Intelligent Inspection Platform**]
+- [**UAV Intelligent Inspection Technology for Bridges & Rockfall Hazards of Qinghai-Tibet Railway**]
 
-    <p style="font-size: 18px;">As core technical person of the entrepreneurial team, I completed algorithm development, experimental verification and project roadshow. The project won Silver Award of Qingchuang Beijing Capital University Challenge Cup (2024, Beijing Municipal Committee of the Communist Youth League) and Silver Award of Belt and Road Invitational Competition, the 14th "Challenge Cup" China University Entrepreneurship Plan Competition (2024, Central Committee of the Communist Youth League). The achievement transforms academic algorithms into industrial available inspection solutions, and establishes docking channels with multiple railway maintenance departments.</p>
+    <div style="display:flex;gap:15;align-items:flex-start;"> <div style="width:25%;min-width:220px;"> <a href="/assets/images/QT.png"><img src="/assets/images/QT.png" style="width:100%;border-radius:6px;"></a> </div> <div style="width:70%;"> <p style="font-size: 18px;">Participated in the special research project of "Smart Sky Road" major special project, targeting the extreme high-altitude, low-temperature and strong wind environment of Qinghai-Tibet Railway, taking Lalin Railway Lengda Extra Large Bridge and Gongduan Tunnel Portal as typical research scenes. Mainly responsible for the full-stack technical research including UAV autonomous flight control, close-range photogrammetry 3D reconstruction, point cloud semantic segmentation, multi-temporal point cloud registration and rockfall deformation detection. The technology forms special operation specifications suitable for plateau railway UAV inspection, providing technical support for the safe operation of plateau long-distance railway.</p> </div>
+
+    <p style="font-size: 18px;">Participated in the special research project of "Smart Sky Road" major special project, targeting the extreme high-altitude, low-temperature and strong wind environment of Qinghai-Tibet Railway, taking Lalin Railway Lengda Extra Large Bridge and Gongduan Tunnel Portal as typical research scenes. Mainly responsible for the full-stack technical research including UAV autonomous flight control, close-range photogrammetry 3D reconstruction, point cloud semantic segmentation, multi-temporal point cloud registration and rockfall deformation detection. The technology forms special operation specifications suitable for plateau railway UAV inspection, providing technical support for the safe operation of plateau long-distance railway.</p>
 
 - [**Standardized Railway Disease Dataset Construction & Multi-source Remote Sensing Data Platform**]
 
