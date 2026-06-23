@@ -282,48 +282,67 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
 
 <style>
 .project-card {
-    position: relative;
-    margin: 35px 0 25px 0;
-    padding: 22px 22px 18px 150px;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 28px 0 28px 0;
+    padding: 22px 22px 22px 22px;
     background: #fafafa;
     border-radius: 10px;
     border: 1px solid #e8e8e8;
-    min-height: 110px;
 }
-.project-card .project-float-img {
-    position: absolute;
-    top: -18px;
-    left: 12px;
-    width: 120px;
+.project-img-col {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex-shrink: 0;
+    width: 140px;
+}
+.project-img-col img {
+    width: 140px;
     height: auto;
-    z-index: 5;
     border-radius: 6px;
-    box-shadow: 3px 3px 14px rgba(0,0,0,0.25);
+    box-shadow: 3px 3px 14px rgba(0,0,0,0.22);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.project-card .project-float-img:hover {
-    transform: scale(1.08);
+.project-img-col img:hover {
+    transform: scale(1.06);
     box-shadow: 4px 4px 18px rgba(0,0,0,0.35);
 }
-.project-card .project-text {
-    position: relative;
-    z-index: 1;
+.project-text {
+    flex: 1;
+    min-width: 0;
+}
+.project-text b {
+    font-size: 17px;
+}
+.project-text p {
+    font-size: 18px;
+    margin-top: 6px;
 }
 </style>
 
 <div class="project-card">
-    <img class="project-float-img" src="/assets/images/projects/QT.png" alt="UAV Inspection System">
+    <div class="project-img-col">
+        <img src="/assets/images/projects/QT.png" alt="UAV Inspection 1">
+        <img src="/assets/images/projects/QT.png" alt="UAV Inspection 2">
+        <img src="/assets/images/projects/QT.png" alt="UAV Inspection 3">
+    </div>
     <div class="project-text">
         <b>Fully-automatic UAV Intelligent Inspection System for High-speed Railway</b>
-        <p style="font-size: 18px; margin-top: 6px;">This core engineering research project is supported by national key R&D program, where I serve as a core research member responsible for algorithm design, field flight test and system joint debugging. Aiming at the pain points of traditional manual railway inspection such as narrow operation window and high mountainous risk, I designed three original vision algorithms, with target detection & defect recognition recall rate over 96%. We deployed 6 inspection UAVs and 4 automatic drone nests along Beijing-Shanghai & Qinghai-Tibet High-speed Railway, realized monthly normalized inspection in test lines, and increased inspection efficiency by more than 10 times compared with manual work.</p>
+        <p>This core engineering research project is supported by national key R&D program, where I serve as a core research member responsible for algorithm design, field flight test and system joint debugging. Aiming at the pain points of traditional manual railway inspection such as narrow operation window and high mountainous risk, I designed three original vision algorithms, with target detection & defect recognition recall rate over 96%. We deployed 6 inspection UAVs and 4 automatic drone nests along Beijing-Shanghai & Qinghai-Tibet High-speed Railway, realized monthly normalized inspection in test lines, and increased inspection efficiency by more than 10 times compared with manual work.</p>
     </div>
 </div>
 
 <div class="project-card">
-    <img class="project-float-img" src="/assets/images/projects/QT.png" alt="Bridge Inspection">
+    <div class="project-img-col">
+        <img src="/assets/images/projects/QT.png" alt="Bridge Inspection 1">
+        <img src="/assets/images/projects/QT.png" alt="Bridge Inspection 2">
+        <img src="/assets/images/projects/QT.png" alt="Bridge Inspection 3">
+    </div>
     <div class="project-text">
         <b>UAV Intelligent Inspection Technology for Bridges & Rockfall Hazards of Qinghai-Tibet Railway</b>
-        <p style="font-size: 18px; margin-top: 6px;">Participated in the special research project of "Smart Sky Road" major special project, targeting the extreme high-altitude, low-temperature and strong wind environment of Qinghai-Tibet Railway, taking Lalin Railway Lengda Extra Large Bridge and Gongduan Tunnel Portal as typical research scenes. Mainly responsible for the full-stack technical research including UAV autonomous flight control, close-range photogrammetry 3D reconstruction, point cloud semantic segmentation, multi-temporal point cloud registration and rockfall deformation detection. The technology forms special operation specifications suitable for plateau railway UAV inspection, providing technical support for the safe operation of plateau long-distance railway.</p>
+        <p>Participated in the special research project of "Smart Sky Road" major special project, targeting the extreme high-altitude, low-temperature and strong wind environment of Qinghai-Tibet Railway, taking Lalin Railway Lengda Extra Large Bridge and Gongduan Tunnel Portal as typical research scenes. Mainly responsible for the full-stack technical research including UAV autonomous flight control, close-range photogrammetry 3D reconstruction, point cloud semantic segmentation, multi-temporal point cloud registration and rockfall deformation detection. The technology forms special operation specifications suitable for plateau railway UAV inspection, providing technical support for the safe operation of plateau long-distance railway.</p>
     </div>
 </div>
 
