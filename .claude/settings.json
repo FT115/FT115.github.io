@@ -18,7 +18,8 @@
       "Bash(npm ls *)",
       "Bash(docker run *)",
       "Bash(/c/Users/86156/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pdflatex.exe -interaction=nonstopmode cv.tex)",
-      "Bash(cp \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.pdf\" \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\")"
+      "Bash(cp \"e:/Code/TOOLS/FT115.github.io/assets/cv/cv.pdf\" \"e:/Code/TOOLS/FT115.github.io/assets/pdf/cv.pdf\")",
+      "Bash(cd e:/Code/TOOLS/FT115.github.io/assets/cv)"
     ],
     "additionalDirectories": [
       "e:\\Code\\TOOLS\\FT115.github.io\\assets\\cv"

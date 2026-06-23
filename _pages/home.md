@@ -278,7 +278,7 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
     </div>
 </div>
 
-## Selected Competition & Engineering Projects
+## Selected Engineering Projects
 
 <style>
 .project-card {

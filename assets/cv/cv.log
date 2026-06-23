@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.24)  24 JUN 2026 01:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.24)  24 JUN 2026 01:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,7 +448,7 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 2B21C91AFEF12EDBF36476ED41601A0D;1125.
+(rerunfilecheck)             Checksum: 68F4CC8762E20DE7B27EEC0129070C5D;1046.
  ) 
 Here is how much of TeX's memory you used:
  10730 strings out of 467871
@@ -457,7 +457,7 @@ Here is how much of TeX's memory you used:
  39433 multiletter control sequences out of 15000+600000
  663859 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,79p,312b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,79p,251b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/86156/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/86156/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvb8a.pfb><C:/Users/86156/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
@@ -465,7 +465,7 @@ vetic/uhvr8a.pfb><C:/Users/86156/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 palatino/uplb8a.pfb><C:/Users/86156/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/palatino/uplr8a.pfb><C:/Users/86156/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (3 pages, 1364338 bytes).
+Output written on cv.pdf (3 pages, 1363821 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
