@@ -7,7 +7,7 @@ permalink: /
 
 # About Me
 
-I am Fanteng Meng, a PhD student majoring in Safety Science and Engineering at Beijing Jiaotong University, Transportation College, Intelligent Systems Department, enrolled in September 2023. 
+I am Fanteng Meng, a PhD student majoring in Safety Science and Engineering at Beijing Jiaotong University, affiliated with both the State Key Laboratory of Rail Traffic Control and Safety and the Transportation College (Intelligent Systems Department), enrolled in September 2023. 
 
 My research focuses on intelligent inspection of rail transit based on UAV, machine vision and deep learning. Guided by Professor [Yong Qin](https://trans.bjtu.edu.cn/faculty/B1VKYdp2p4LmrQ5p.html), I devote myself to solving practical operation and maintenance pain points of high-speed railway infrastructure, integrating artificial intelligence, edge computing and UAV flight control technologies to build a full-stack low-altitude intelligent perception system for rail transit.
 
