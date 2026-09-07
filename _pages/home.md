@@ -79,7 +79,7 @@ My detailed resume is linked [here](/assets/pdf/cv.pdf).
         <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>A subtle defect recognition method for catenary fastener in high-speed railroad using destruction and reconstruction learning</b></p>
         <div class="publication-meta">
         <p class="publication-authors">
-                <u><b>F. Meng<sup>＃</sup></b></u>, 
+                <u><b>F. Meng</b></u>, 
                 <span style="color: gray;">Y. Qin<sup>*</sup></span>, 
                 <span style="color: gray;">Y. Wu<sup>*</sup></span>,
                 <span style="color: gray;">C. Shao</span>, 
@@ -135,7 +135,7 @@ My detailed resume is linked [here](/assets/pdf/cv.pdf).
         <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>Automatic risk level evaluation system for potential environmental hazards along high-speed railroad using UAV aerial photograph</b></p>
         <div class="publication-meta">
         <p class="publication-authors">
-                <u><b>F. Meng<sup>＃</sup></b></u>, 
+                <u><b>F. Meng</b></u>, 
                 <span style="color: gray;">Y. Qin<sup>*</sup></span>, 
                 <span style="color: gray;">Y. Wu<sup>*</sup></span>,
                 <span style="color: gray;">C. Shao</span>, 
@@ -164,7 +164,7 @@ My detailed resume is linked [here](/assets/pdf/cv.pdf).
         <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>Unknown risk detection in external environment of railroad using UAV images</b></p>
         <div class="publication-meta">
         <p class="publication-authors">
-                <u><b>F. Meng<sup>＃</sup></b></u>, 
+                <u><b>F. Meng</b></u>, 
                 <span style="color: gray;">Y. Qin<sup>*</sup></span>, 
                 <span style="color: gray;">J. Cui</span>, 
                 <span style="color: gray;">Y. Wu</span>,
@@ -230,7 +230,7 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
         <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>SRLF: Sparse Representation Learning Framework for Railroad Surrounding Potential Risk Perception Using UAV Imagery</b></p>
         <div class="publication-meta">
         <p class="publication-authors">
-                <u><b>F. Meng<sup>＃</sup></b></u>, 
+                <u><b>F. Meng</b></u>, 
                 <span style="color: gray;">Y. Qin<sup>*</sup></span>, 
                 <span style="color: gray;">Y. Wu<sup>*</sup></span>,
                 <span style="color: gray;">M. Chen</span>, 
@@ -571,7 +571,7 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
         <div class="patent-placeholder">Pending certificate issuance</div>
         <div class="patent-info">
             <span class="status-badge badge-granted">Granted</span>
-            <div class="patent-title">Unknown Risk Identification Method for Railway Surrounding Environment Using UAV Remote Sensing Images</div>
+            <div class="patent-title">Railway Environmental Hazard Identification and Risk Level Assessment Method Based on UAV Images</div>
         </div>
     </div>
     <div class="patent-item">
@@ -596,6 +596,12 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
     <div class="patent-item">
         <div class="patent-info">
             <span class="status-badge badge-published">Published</span>
+            <div class="patent-title">Unknown Risk Identification Method for Railway Surrounding Environment Using UAV Remote Sensing Images</div>
+        </div>
+    </div>
+    <div class="patent-item">
+        <div class="patent-info">
+            <span class="status-badge badge-published">Published</span>
             <div class="patent-title">Refined Catenary Split Pin Defect Recognition Method for Railway Catenary</div>
         </div>
     </div>
@@ -603,12 +609,6 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
         <div class="patent-info">
             <span class="status-badge badge-published">Published</span>
             <div class="patent-title">Coating Corrosion Detection, Assessment Method and System for Railway Steel Truss Bridges</div>
-        </div>
-    </div>
-    <div class="patent-item">
-        <div class="patent-info">
-            <span class="status-badge badge-published">Published</span>
-            <div class="patent-title">Railway Environmental Hazard Identification and Risk Level Assessment Method Based on UAV Images</div>
         </div>
     </div>
 </div>
