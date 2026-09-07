@@ -616,6 +616,7 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
 ## Honors & Competition Awards
 
 <div class="honor-list">
+    <div class="honor-item"><div class="honor-year">2024</div><div class="honor-text">Leading Technology Award (Outstanding Achievement), World Internet Conference — "Fully-autonomous UAV Intelligent Inspection Technology and Application for Rail Transit"</div></div>
     <div class="honor-item"><div class="honor-year">2024</div><div class="honor-text">Silver Award, 14th Challenge Cup National College Students' Entrepreneurship Competition Belt and Road International Invitational</div></div>
     <div class="honor-item"><div class="honor-year">2024</div><div class="honor-text">Silver Award, "Qingchuang Beijing" Capital College Students Challenge Cup Entrepreneurship Competition</div></div>
     <div class="honor-item"><div class="honor-year">2022</div><div class="honor-text">Second Place, Beijing Jiaotong University Summer Deep Learning Championship</div></div>

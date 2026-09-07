@@ -18,7 +18,7 @@
 \usepackage{graphicx}              % For photo
 
 % ---- Colors ----
-\definecolor{sectioncolor}{RGB}{45,55,75}
+\definecolor{sectioncolor}{RGB}{0,51,145}
 \definecolor{accent}{RGB}{100,80,155}
 \definecolor{graytext}{RGB}{100,100,100}
 \definecolor{linkcolor}{RGB}{60,80,160}
@@ -35,7 +35,7 @@
 % ---- Section formatting ----
 \titleformat{\section}
   {\sffamily\bfseries\large\color{sectioncolor}}
-  {\thesection}{1em}{}[\vspace{-3pt}\rule{\textwidth}{0.6pt}\vspace{-6pt}]
+  {\thesection}{1em}{}[\vspace{-3pt}\textcolor{sectioncolor}{\rule{\textwidth}{0.6pt}}\vspace{-6pt}]
 \titlespacing*{\section}{0pt}{14pt}{8pt}
 
 \titleformat{\subsection}
@@ -114,6 +114,20 @@ Edge computing; 3D reconstruction \& point cloud analysis;
 Full-stack low-altitude intelligent perception systems.
 
 % ============================================================
+\section{Research Projects}
+
+{\footnotesize\color{graytext}P.I. for the item marked (P.I.); the rest are core participants (Core).}
+
+\begin{enumerate}[leftmargin=1.6em,itemsep=2.5pt]
+  \item \textbf{Development and Demonstration Verification of Safety-Guarantee Technologies for Autonomous Rail Transit Systems.} (2022--2026) -- National Key R\&D Program (Core)
+  \item \textbf{Research on Unknown-Risk Identification of High-Speed Railway Surroundings from UAV Remote Sensing Imagery.} (2024--2026) -- Fundamental Research Funds for the Central Universities (P.I.)
+  \item \textbf{In-depth Research and Application of UAV Inspection Technology for High-Speed Railway Infrastructure.} (2022--2024) -- China Railway ``Major Project'' (Core)
+  \item \textbf{Construction of an Automatic UAV Intelligent Inspection System for Beijing--Shanghai HSR Infrastructure.} (2023--2024) -- Beijing--Shanghai HSR ``Major Project'' (Core)
+  \item \textbf{Research on Automated Overhaul Equipment and Key Technologies for Railway Steel-Truss-Bridge Coating.} (2024--2027) -- Beijing--Shanghai HSR ``Major Project'' (Core)
+  \item \textbf{Application of Autonomous-UAV Inspection to Defects and Rockfall Debris in Key Zones of Qinghai--Tibet Railway Bridges.} (2026--2027) -- ``Smart Sky Road'' Major Project of the Qinghai--Tibet Railway (Core)
+\end{enumerate}
+
+% ============================================================
 \section{Selected Publications}
 
 \noindent\textit{* Corresponding author \quad $^\#$ Co-first author}
@@ -122,15 +136,15 @@ Full-stack low-altitude intelligent perception systems.
 \noindent\textbf{Journal Articles}
 
 \begin{enumerate}[leftmargin=*,nosep,itemsep=1.5pt]
-  \item \textbf{Meng, F.}$^\#$, Qin, Y.$^*$, Wu, Y.$^*$, et al.\
+  \item \textbf{Meng, F.}, Qin, Y.$^*$, Wu, Y.$^*$, et al.\
     ``SRLF: Sparse Representation Learning Framework for Railroad Surrounding Potential Risk Perception Using UAV Imagery.''
     \textit{IEEE Trans.\ Intell.\ Transp.\ Syst.}, 2025.
 
-  \item \textbf{Meng, F.}$^\#$, Qin, Y.$^*$, Wu, Y.$^*$, Shao, C., Yang, H., Jia, L.\
+  \item \textbf{Meng, F.}, Qin, Y.$^*$, Wu, Y.$^*$, Shao, C., Yang, H., Jia, L.\
     ``Automatic Risk Level Evaluation System for Potential Environmental Hazards along High-speed Railroad Using UAV Aerial Photograph.''
     \textit{Expert Syst.\ Appl.}, 2025.
 
-  \item \textbf{Meng, F.}$^\#$, Qin, Y.$^*$, Wu, Y.$^*$, Shao, C., Jia, L.\
+  \item \textbf{Meng, F.}, Qin, Y.$^*$, Wu, Y.$^*$, Shao, C., Jia, L.\
     ``A Subtle Defect Recognition Method for Catenary Fastener in High-speed Railroad Using Destruction and Reconstruction Learning.''
     \textit{Adv.\ Eng.\ Inform.}, 2024.
 
@@ -142,7 +156,7 @@ Full-stack low-altitude intelligent perception systems.
     ``Automated Anomaly Detection of Catenary Split Pins Using Unsupervised Learning.''
     \textit{Autom.\ Constr.}, 2024.
 
-  \item \textbf{Meng, F.}$^\#$, Qin, Y.$^*$, Cui, J., Wu, Y., Zhang, Z., Wei, S.\
+  \item \textbf{Meng, F.}, Qin, Y.$^*$, Cui, J., Wu, Y., Zhang, Z., Wei, S.\
     ``Unknown Risk Detection in External Environment of Railroad Using UAV Images.''
     \textit{Acta Aeronaut.\ Astronaut.\ Sin.}, 2025.
 
@@ -200,6 +214,7 @@ Full-stack low-altitude intelligent perception systems.
 \section{Honors \& Awards}
 
 \begin{itemize}[leftmargin=*,nosep,itemsep=2pt]
+  \item[2024] Leading Technology Award (Outstanding Achievement), World Internet Conference --- ``Fully-autonomous UAV Intelligent Inspection Technology and Application for Rail Transit''
   \item[2024] Silver Award, 14th Challenge Cup National College Students' Entrepreneurship Competition (Belt \& Road Intl.\ Invitational)
   \item[2024] Silver Award, ``Qingchuang Beijing'' Capital College Students Challenge Cup Entrepreneurship Competition
   \item[2022] Second Place, Beijing Jiaotong University Summer Deep Learning Championship
