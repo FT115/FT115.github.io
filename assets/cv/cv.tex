@@ -61,29 +61,34 @@
 
 % ---- Header ----
 \newcommand{\makecvheader}{%
-  \begin{center}
-    \begin{tabular}{c}
-      \includegraphics[width=2.8cm,height=2.8cm,keepaspectratio,clip]{../images/photo-202601-square.png}
-      \\[8pt]
-      {\Huge\sffamily\bfseries Fanteng Meng}\\[5pt]
-      {\large\color{graytext} Ph.D. Student in Safety Science \& Engineering}\\[4pt]
-      \begin{tabular}{c}
-        \small
-        \href{mailto:ftmeng@bjtu.edu.cn}{ftmeng@bjtu.edu.cn}
-        \quad$\cdot$\quad
-        \href{https://ft115.github.io}{ft115.github.io}
-        \quad$\cdot$\quad
-        \href{https://scholar.google.com.hk/citations?user=Yq5wnc8AAAAJ}{Google Scholar}
-        \\[1pt]
-        State Key Laboratory of Rail Traffic Control and Safety, Beijing Jiaotong University\\
-        Transportation College, Beijing Jiaotong University, Beijing, China
-      \end{tabular}
-    \end{tabular}
-  \end{center}
-  \vspace{-6pt}
+  \noindent
+  \begin{minipage}[t]{3.4cm}
+    \vspace{0.1em}
+    \includegraphics[width=3.15cm,height=3.15cm,keepaspectratio,clip]{../images/photo-202601-square.png}%
+  \end{minipage}\hspace{1.2em}%
+  \begin{minipage}[t]{0.60\textwidth}
+    \vspace{0.7em}
+    {\fontsize{22}{26}\selectfont\sffamily\bfseries Fanteng Meng}\par
+    \vspace{1pt}\color{graytext}\large Ph.D.\ Student in Safety Science \& Engineering\par
+    \vspace{6pt}\small
+    \href{mailto:ftmeng@bjtu.edu.cn}{ftmeng@bjtu.edu.cn}\,
+    $\cdot$\,
+    \href{https://ft115.github.io}{ft115.github.io}\,
+    $\cdot$\,
+    \href{https://scholar.google.com.hk/citations?user=Yq5wnc8AAAAJ}{Google Scholar}\par
+    \vspace{3pt}\footnotesize\color{graytext}State Key Laboratory of Rail Traffic Control and Safety, Beijing Jiaotong University\\[1pt]
+    \footnotesize\color{graytext}Transportation College, Beijing Jiaotong University, Beijing, China
+  \end{minipage}
+  \par\vspace{3pt}
+  \noindent\textcolor{black}{\rule{\textwidth}{0.4pt}}\vspace{5pt}
 }
 
 \begin{document}
+\emergencystretch=2.5em
+\widowpenalty=10000
+\clubpenalty=10000
+\brokenpenalty=10000
+\displaywidowpenalty=10000
 
 \makecvheader
 
@@ -131,9 +136,6 @@ Full-stack low-altitude intelligent perception systems.
 \section{Selected Publications}
 
 \noindent\textit{* Corresponding author \quad $^\#$ Co-first author}
-
-\smallskip
-\noindent\textbf{Journal Articles}
 
 \begin{enumerate}[leftmargin=*,nosep,itemsep=1.5pt]
   \item \textbf{Meng, F.}, Qin, Y.$^*$, Wu, Y.$^*$, et al.\

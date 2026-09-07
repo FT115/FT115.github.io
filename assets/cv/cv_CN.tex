@@ -48,29 +48,33 @@
 
 % ---- Header ----
 \newcommand{\makecvheader}{%
-  \begin{center}
-    \begin{tabular}{c}
-      \includegraphics[width=2.8cm,height=2.8cm,keepaspectratio,clip]{../images/photo-202601-square.png}
-      \\[8pt]
-      {\Huge\sffamily\bfseries 孟凡腾}\\[5pt]
-      {\large\color{graytext} 安全科学与工程专业博士生}\\[4pt]
-      \begin{tabular}{c}
-        \small
-        \href{mailto:ftmeng@bjtu.edu.cn}{ftmeng@bjtu.edu.cn}
-        \quad$\cdot$\quad
-        \href{https://ft115.github.io}{ft115.github.io}
-        \quad$\cdot$\quad
-        \href{https://scholar.google.com.hk/citations?user=Yq5wnc8AAAAJ}{Google Scholar}
-        \\[1pt]
-        北京交通大学 先进轨道交通自主运行全国重点实验室\\
-        北京交通大学 交通运输学院（智能系），北京，中国
-      \end{tabular}
-    \end{tabular}
-  \end{center}
-  \vspace{-6pt}
+  \noindent
+  \begin{minipage}[t]{3.7cm}
+    \vspace{0.1em}
+    \includegraphics[height=3.65cm,keepaspectratio,clip]{../images/photo-202601-square.png}%
+  \end{minipage}\hspace{1.1em}%
+  \begin{minipage}[t]{0.60\textwidth}
+    \vspace{0.7em}
+    {\fontsize{22}{26}\selectfont\sffamily\bfseries 孟凡腾}\par
+    \vspace{1pt}\color{graytext}\large 安全科学与工程专业博士生\par
+    \vspace{6pt}\small
+    \href{mailto:ftmeng@bjtu.edu.cn}{ftmeng@bjtu.edu.cn}\,
+    $\cdot$\,
+    \href{https://ft115.github.io}{ft115.github.io}\,
+    $\cdot$\,
+    \href{https://scholar.google.com.hk/citations?user=Yq5wnc8AAAAJ}{Google Scholar}\par
+    \vspace{3pt}\footnotesize\color{graytext}北京交通大学 · 先进轨道交通自主运行全国重点实验室\\[1pt]
+    \footnotesize\color{graytext}北京交通大学 · 交通运输学院（智能系），北京，中国
+  \end{minipage}
+  \par\vspace{3pt}
+  \noindent\textcolor{black}{\rule{\textwidth}{0.4pt}}\vspace{5pt}
 }
 
 \begin{document}
+\widowpenalty=10000
+\clubpenalty=10000
+\brokenpenalty=10000
+\displaywidowpenalty=10000
 
 \makecvheader
 
@@ -115,9 +119,6 @@
 \section{代表性论文}
 
 \noindent\textit{* 通讯作者；$^\#$ 共同第一作者。}
-
-\smallskip
-\noindent\textbf{期刊论文}
 
 \begin{enumerate}[leftmargin=*,nosep,itemsep=3pt]
   \item \textbf{Meng, F.}, Qin, Y.$^*$, Wu, Y.$^*$, et al.\
