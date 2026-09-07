@@ -426,6 +426,22 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
     flex-shrink: 0;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.12);
 }
+.patent-grid .patent-item .patent-placeholder {
+    width: 90px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px dashed #cccccc;
+    background: #fafafa;
+    color: #999;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+}
 .patent-grid .patent-item .patent-info {
     flex: 1;
     min-width: 0;
@@ -545,14 +561,28 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
 <p class="patent-subhead">🔒 Granted Patents</p>
 <div class="patent-grid">
     <div class="patent-item">
-        <img src="/assets/images/patents/p1.png" alt="Patent 1">
+        <div class="patent-placeholder">Pending certificate issuance</div>
+        <div class="patent-info">
+            <span class="status-badge badge-granted">Granted · US</span>
+            <div class="patent-title">Autonomous Unmanned Aerial Vehicle Based Intelligent Inspection System for Equipment, Facilities, and the Environment along Railway Lines and Method Thereof</div>
+        </div>
+    </div>
+    <div class="patent-item">
+        <div class="patent-placeholder">Pending certificate issuance</div>
+        <div class="patent-info">
+            <span class="status-badge badge-granted">Granted</span>
+            <div class="patent-title">Unknown Risk Identification Method for Railway Surrounding Environment Using UAV Remote Sensing Images</div>
+        </div>
+    </div>
+    <div class="patent-item">
+        <img src="/assets/images/patents/p1.png" alt="Patent 3">
         <div class="patent-info">
             <span class="status-badge badge-granted">Granted</span>
             <div class="patent-title">UAV Route Generation Method for Transportation Facility Inspection under GNSS-denied Environments</div>
         </div>
     </div>
     <div class="patent-item">
-        <img src="/assets/images/patents/p2.png" alt="Patent 2">
+        <img src="/assets/images/patents/p2.png" alt="Patent 4">
         <div class="patent-info">
             <span class="status-badge badge-granted">Granted</span>
             <div class="patent-title">Cross-modal Adaptive Matching Based Online Extrinsic Calibration Method and System for LiDAR and Camera</div>
@@ -563,12 +593,6 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
 <!-- Published patents -->
 <p class="patent-subhead">📄 Published Patent Applications</p>
 <div class="patent-grid">
-    <div class="patent-item">
-        <div class="patent-info">
-            <span class="status-badge badge-published">Published</span>
-            <div class="patent-title">Unknown Risk Identification Method for Railway Surrounding Environment Using UAV Remote Sensing Images</div>
-        </div>
-    </div>
     <div class="patent-item">
         <div class="patent-info">
             <span class="status-badge badge-published">Published</span>
@@ -585,17 +609,6 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
         <div class="patent-info">
             <span class="status-badge badge-published">Published</span>
             <div class="patent-title">Railway Environmental Hazard Identification and Risk Level Assessment Method Based on UAV Images</div>
-        </div>
-    </div>
-</div>
-
-<!-- Pending patents -->
-<p class="patent-subhead">🔶 Pending (US Patent)</p>
-<div class="patent-grid">
-    <div class="patent-item">
-        <div class="patent-info">
-            <span class="status-badge badge-pending">Pending</span>
-            <div class="patent-title">Autonomous Unmanned Aerial Vehicle Based Intelligent Inspection System for Equipment, Facilities, and the Environment along Railway Lines and Method Thereof</div>
         </div>
     </div>
 </div>
