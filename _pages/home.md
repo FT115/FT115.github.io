@@ -13,7 +13,7 @@ My research focuses on intelligent inspection of rail transit based on UAV, mach
 
 Before pursuing my doctoral degree, I laid a solid interdisciplinary foundation covering transportation engineering, computer vision and unmanned aerial vehicle technology. I maintain the academic philosophy of combining theory with engineering practice, and am glad to communicate and cooperate with scholars, engineers and students engaged in intelligent transportation, computer vision research.
 
-My detailed resume is linked [here](/assets/pdf/cv.pdf).
+My detailed resume is linked here ([English CV](/assets/pdf/cv.pdf) · [中文简历](/assets/pdf/cv_CN.pdf)).
 
 ## Publications
 
