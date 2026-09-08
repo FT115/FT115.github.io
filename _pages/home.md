@@ -568,7 +568,7 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
         </div>
     </div>
     <div class="patent-item">
-        <div class="patent-placeholder">Pending certificate issuance</div>
+        <img src="/assets/images/patents/p3.png" alt="Patent 2 certificate">
         <div class="patent-info">
             <span class="status-badge badge-granted">Granted</span>
             <div class="patent-title">Railway Environmental Hazard Identification and Risk Level Assessment Method Based on UAV Images</div>
