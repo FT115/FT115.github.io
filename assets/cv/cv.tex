@@ -92,6 +92,7 @@
 
 \makecvheader
 
+\vspace*{-6.5mm}% 压缩页眉与“Education”/第一章标题之间的空白
 % ============================================================
 \section{Education}
 
@@ -170,25 +171,28 @@ Full-stack low-altitude intelligent perception systems.
 % ============================================================
 \section{Selected Engineering Projects}
 
-\begin{enumerate}[leftmargin=*,nosep,itemsep=4pt]
+\begin{enumerate}[leftmargin=*,nosep,itemsep=9pt]
 
-  \item \textbf{Fully-automatic UAV Intelligent Inspection System for High-speed Railway}
-  \begin{itemize}[leftmargin=*,nosep]
-    \item Core researcher in national key R\&D program; designed 3 vision algorithms (\textgreater{}96\% recall).
-    \item Deployed 6 UAVs + 4 auto drone nests; achieved 10$\times$ efficiency gain over manual inspection.
-  \end{itemize}
+  \item \textbf{Fully-Autonomous UAV Intelligent Inspection System for High-Speed Railway}
+  \begin{description}[itemsep=3pt,parsep=0pt]
+    \item[\textbf{Background \& Objective:}]Owing to the tight maintenance-window constraints and blind spots in inspection coverage of high-speed railway infrastructure, built the domestically- and internationally-first fully-autonomous UAV intelligent inspection system for high-speed railways and scaled its application.
+    \item[\textbf{Core Methodology:}]Designed a cloud-edge collaborative architecture: the drone-on-edge autonomously captures multimodal data of rail-transit facilities, while the cloud performs point-cloud processing and intelligent analysis over multiple asset classes, achieving integrated inspection management and control spanning command/dispatch and data backhaul.
+    \item[\textbf{Outcome \& Benefit:}]Scaled to about 100 km of line on the world's busiest Beijing--Shanghai railway; field-deployed 6 inspection UAVs and 4 automated drone nests; inspection efficiency is improved more than 10$\times$ over manual work, realizing routine automated inspection.
+  \end{description}
 
-  \item \textbf{UAV Inspection for Bridges \& Rockfall Hazards, Qinghai-Tibet Railway}
-  \begin{itemize}[leftmargin=*,nosep]
-    \item Full-stack R\&D: autonomous flight control, photogrammetry 3D reconstruction, point cloud segmentation.
-    \item Multi-temporal registration \& rockfall deformation detection for plateau railway safety.
-  \end{itemize}
+  \item \textbf{Autonomous UAV Inspection of Qinghai--Tibet Railway Bridges \& Rockfall Hazards}
+  \begin{description}[itemsep=3pt,parsep=0pt]
+    \item[\textbf{Background \& Objective:}]Aimed at inspection difficulties of key bridge sections and rockfall hazards on hillsides around tunnel portals under extreme high altitude, low atmospheric pressure and strong wind, explored ``Smart Sky Road'' autonomous UAV inspection.
+    \item[\textbf{Core Methodology:}]Fused point-cloud segmentation, intelligent flight routing and generative enhancement of defects to build an edge--cloud co-inspection recognition model for bridges and tunnels; via multi-temporal point-cloud registration, hillside feature extraction and change analysis, realized three-dimensional quantitative assessment of surrounding hillsides.
+    \item[\textbf{Outcome \& Benefit:}]Performed defect detection and rockfall/deformation inspection for key zones of long plateau bridges at an average altitude above 3000 m; formed an operationally applicable technical scheme for plateau-railway UAV inspection, supporting the long-term safe operation of the Qinghai--Tibet railway.
+  \end{description}
 
-  \item \textbf{Full-coverage UAV Inspection \& Coating Defect Evaluation for Railway Steel Truss Bridge}
-  \begin{itemize}[leftmargin=*,nosep]
-    \item Designed obstacle-avoidance flight modes covering top, side, \& under-bridge zones.
-    \item End-to-end workflow: coating defect recognition $\to$ quantitative grading $\to$ spatial traceability.
-  \end{itemize}
+  \item \textbf{Full-Coverage UAV Inspection \& Coating-Defect Evaluation for Railway Steel Truss Bridge}
+  \begin{description}[itemsep=3pt,parsep=0pt]
+    \item[\textbf{Background \& Objective:}]For large-span railway steel truss girder bridges where manual full-coverage of coating disease is difficult under narrow/complex under-bridge space and GNSS-denied conditions, carried out automated inspection and defect evaluation.
+    \item[\textbf{Core Methodology:}]Designed obstacle-avoidance inspection routes covering the deck, sides and the complex under-bridge zone (safe flight achieved through vision-based obstacle-space modelling together with obstacle-avoidance path search and execution); built an end-to-end evaluation workflow of ``coating-defect recognition $\to$ quantitative grading $\to$ 3-D spatial tracing''.
+    \item[\textbf{Outcome \& Benefit:}]Supports long-term disease comparison and structural-safety assessment of railway steel truss bridge coating maintenance, and accumulates a reusable operation specification for UAV inspection of long-span steel bridges.
+  \end{description}
 
 \end{enumerate}
 

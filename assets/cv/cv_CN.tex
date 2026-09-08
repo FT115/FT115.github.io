@@ -26,9 +26,8 @@
 
 % ---- Section formatting ----
 \titleformat{\section}
-  {\sffamily\bfseries\large\color{sectioncolor}}
-  {\thesection}{1em}{}[\vspace{-3pt}\textcolor{sectioncolor}{\rule{\textwidth}{0.6pt}}\vspace{-6pt}]
-\titlespacing*{\section}{0pt}{12pt}{8pt}
+  {\sffamily\bfseries\large\color{sectioncolor}}{\thesection}{0.75em}{}[\vspace{-3pt}\textcolor{sectioncolor}{\rule{\textwidth}{0.6pt}}\vspace{-6pt}]
+\titlespacing*{\section}{0pt}{7pt}{7pt}
 
 % ---- Custom environments ----
 \newenvironment{entrylist}
@@ -45,6 +44,13 @@
     \textbf{#2}\par\small#3\par}%
   \vspace{2.5mm}\par%
 }
+
+% ---- ①背景·目标/②核心方法/③成果 悬挂行 ----
+\newlength{\projhang}
+\newcommand{\jl}[2]{%
+  \settowidth{\projhang}{\heiti {#1}}%
+  \par\noindent\hangindent=\projhang\hangafter=1%
+  \textcolor{black}{\heiti{#1}}#2\par}
 
 % ---- Header ----
 \newcommand{\makecvheader}{%
@@ -71,6 +77,7 @@
 }
 
 \begin{document}
+\pagestyle{plain}
 \widowpenalty=10000
 \clubpenalty=10000
 \brokenpenalty=10000
@@ -78,6 +85,7 @@
 
 \makecvheader
 
+\vspace*{-6.5mm}% 压缩页眉与“1 教育经历”之间的空白
 % ============================================================
 \section{教育经历}
 
@@ -160,28 +168,25 @@
 % ============================================================
 \section{代表性工程实践}
 
-\begin{enumerate}[leftmargin=*,nosep,itemsep=4pt]
+\begin{enumerate}[leftmargin=*,nosep,itemsep=8pt]
 
-  \item \textbf{高速铁路全自动无人机智能巡检系统}
-  \begin{itemize}[leftmargin=*,nosep]
-    \item 国内外首套高速铁路无人机自主智能巡检系统，规模应用近百公里。
-    \item 国家重点研发计划核心研究人员；设计 3 项原创视觉算法（召回率 \textgreater{}96\%）。
-    \item 部署 6 架巡检无人机 + 4 套自动化机巢；较人工巡检效率提升 10 倍以上。
-  \end{itemize}
+  \item \textbf{高速铁路全自动无人机智能巡检系统}\nopagebreak
+  {\small
+   \jl{• 背景目标：}{针对高铁基础设施“巡检维修天窗制约”、“巡检覆盖存在盲区”等痛点，建成“国内外首套高速铁路无人机自主智能巡检系统”，并规模化推广应用。}
+   \jl{• 核心方法：}{设计边云协同架构，无人机边缘端自主捕获轨道交通设施多模态数据，云端完成点云处理与多类设施智能分析，实现指令调度、数据回传的一体化巡检管控。}
+   \jl{• 成果效益：}{在世界上最繁忙的京沪高铁线路规模应用近百公里。现场部署 6 架巡检无人机、4 套自动化机巢，巡检效率较人工提升 10 倍以上，实现常态化自动巡检。}}
 
-  \item \textbf{青藏铁路桥梁与落石灾害无人机智能巡检}
-  \begin{itemize}[leftmargin=*,nosep]
-    \item 平均海拔 3000+ 米自主飞行巡检。
-    \item 全栈技术研发：自主飞行控制、摄影测量三维重建、点云分割。
-    \item 多期点云配准与落石形变检测，服务高原铁路运营安全。
-  \end{itemize}
+  \item \textbf{青藏铁路桥梁与落石灾害无人机智能巡检}\nopagebreak
+  {\small
+   \jl{• 背景目标：}{面向青藏铁路高海拔、低气压、强风等极端环境下桥梁关键区段及隧道外围山体落石灾害的巡检难题，探索“智慧天路”无人机自主巡检。}
+   \jl{• 核心方法：}{融合点云分割、智能航线、病害生成式增强，构建桥隧边-云协同巡检识别模型；通过多时相点云配准、山体特征提取与变化分析，实现隧道外围山体三维量化评估。}
+   \jl{• 成果效益：}{在平均海拔 3000+ 米实现铁路长桥桥梁关键区域缺陷及落石异物形变检测，形成高原铁路无人机巡检作业技术方案，支撑青藏高原铁路长期运营安全。}}
 
-  \item \textbf{铁路钢桁梁桥无人机全覆盖巡检与涂层缺陷评估}
-  \begin{itemize}[leftmargin=*,nosep]
-    \item GNSS 拒止下大跨度铁路钢桥飞行巡检。
-    \item 设计覆盖桥顶、桥侧及复杂桥底区域的避障巡检航线。
-    \item 端到端流程：涂层缺陷识别 $\to$ 量化分级 $\to$ 缺陷空间溯源。
-  \end{itemize}
+  \item \textbf{铁路钢桁梁桥无人机全覆盖巡检与涂层缺陷评估}\nopagebreak
+  {\small
+   \jl{• 背景目标：}{针对大跨度铁路钢桁梁桥涂层病害人工全覆盖困难、桥底空间狭窄/复杂及 GNSS 拒止的作业条件，开展自动化巡检与缺陷评估。}
+   \jl{• 核心方法：}{设计覆盖桥顶、桥侧及复杂桥底区域的避障巡检航线（基于视觉障碍物空间建模与避障路径搜索与执行实现安全飞行）；构建“涂层缺陷识别 → 量化分级 → 三维空间溯源”的端到端评估流程。}
+   \jl{• 成果效益：}{支撑铁路钢桁梁桥涂层养护的长期病害比对与结构安全评估，沉淀可复用的大跨度钢桥无人机巡检作业规程。}}
 
 \end{enumerate}
 
