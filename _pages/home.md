@@ -624,7 +624,7 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
     <div class="honor-item"><div class="honor-year">2021</div><div class="honor-text">Provincial First Prize, 7th National College Students Engineering Training Integration Ability Competition</div></div>
     <div class="honor-item"><div class="honor-year">2021</div><div class="honor-text">Provincial Merit Student</div></div>
     <div class="honor-item"><div class="honor-year">2020</div><div class="honor-text">Provincial First Prize, 12th National College Students Mathematics Competition</div></div>
-    <div class="honor-item"><div class="honor-year">2020</div><div class="honor-text">Provincial First Prize, 7th College Students Physics Competition</div></div>
+    <div class="honor-item"><div class="honor-year">2020</div><div class="honor-text">Provincial Second Prize, 7th College Students Physics Competition</div></div>
 </div>
 
 ## Services
