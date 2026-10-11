@@ -55,3 +55,41 @@ search: false
 .page__content h3 {
     font-size: 1.5em; /* 调整 h3 标题大小 */
 }
+
+/* 页脚访客统计：低调、靠下、不抢视线 */
+/* 用 order 把它排到页脚最底部（版权行之后），不改主题布局文件 */
+.page__footer footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.visitor-counter {
+    order: 99;
+    text-align: right;
+    margin: 8px 0 0 0;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #9aa0a6;
+    letter-spacing: 0.2px;
+    opacity: 0.85;
+    user-select: none;
+}
+
+.visitor-counter__item i {
+    font-size: 11px;
+    margin-right: 3px;
+    opacity: 0.8;
+}
+
+.visitor-counter__sep {
+    margin: 0 6px;
+    color: #c4c8cc;
+}
+
+@media (max-width: 600px) {
+    .visitor-counter {
+        text-align: center;
+        font-size: 11px;
+    }
+}
+
