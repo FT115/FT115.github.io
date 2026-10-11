@@ -45,88 +45,29 @@ My detailed resume is linked here ([English CV](/assets/pdf/cv.pdf) · [中文�
 
 <div class="row">
     <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
-        <a href="/assets/images/publications/YOLARC.png"><img src="/assets/images/publications/YOLARC.png"></a>
+        <a href="/assets/images/publications/continue_learning.png"><img src="/assets/images/publications/continue_learning.png"></a>
     </div>
     <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>UAV imagery based potential safety hazard evaluation for high-speed railroad using Real-time instance segmentation</b></p>
+        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>A class-added rail transit infrastructure object detection method using UAV aerial imagery based on self-ensemble masks and frequency-spatial calibration</b></p>
         <div class="publication-meta">
         <p class="publication-authors">
-                <span style="color: gray;">Y. Wu<sup>＃</sup></span>,
-                <u><b>F. Meng<sup>＃</sup></b></u>, 
-                <span style="color: gray;">Y. Qin<sup>*</sup></span>, 
-                <span style="color: gray;">Y. Qian<sup>*</sup></span>,
-                <span style="color: gray;">F. Xu</span>, 
-                <span style="color: gray;">L. Jia</span>
+                <span style="color: gray;">F. Qin<sup>#</sup></span>, 
+                <span style="color: gray;">C. Yu<sup>*</sup></span>,
+                <span style="color: gray;">Y. Qin</span>, 
+                <span style="color: gray;">N. Qiu</span>,
+                <u><b>F. Meng</b></u>
         </p>
          <p class="publication-venue">
-                <b>Advanced Engineering Informatics, 2023</b>
+                <b>Advanced Engineering Informatics, 2026</b>
         </p> 
         </div>
         <br>
         <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-top: 10px;">
-             <a href="https://doi.org/10.1016/j.aei.2022.101819" style="text-decoration: none; color: blue;">[Paper]</a>
+             <a href="https://10.1016/j.aei.2025.104137" style="text-decoration: none; color: blue;">[Paper]</a>
         </p>
     </div>
 </div>
-
 <!-- space -->
-
-<div class="row">
-    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
-        <a href="/assets/images/publications/DRL.png"><img src="/assets/images/publications/DRL.png"></a>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>A subtle defect recognition method for catenary fastener in high-speed railroad using destruction and reconstruction learning</b></p>
-        <div class="publication-meta">
-        <p class="publication-authors">
-                <u><b>F. Meng</b></u>, 
-                <span style="color: gray;">Y. Qin<sup>*</sup></span>, 
-                <span style="color: gray;">Y. Wu<sup>*</sup></span>,
-                <span style="color: gray;">C. Shao</span>, 
-                <span style="color: gray;">L. Jia</span>
-        </p>
-         <p class="publication-venue">
-                <b>Advanced Engineering Informatics, 2024</b>
-        </p> 
-        </div>
-        <br>
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-top: 10px;">
-             <a href="https://doi.org/10.1016/j.aei.2024.102393" style="text-decoration: none; color: blue;">[Paper]</a>
-        </p>
-    </div>
-</div>
-
-<!-- space -->
-
-<div class="row">
-    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
-        <a href="/assets/images/publications/CSGAN.png"><img src="/assets/images/publications/CSGAN.png"></a>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>Automated anomaly detection of catenary split pins using unsupervised learning</b></p>
-        <div class="publication-meta">
-        <p class="publication-authors">
-                <span style="color: gray;">Y. Wu<sup>＃</sup></span>,
-                <u><b>F. Meng<sup>＃</sup></b></u>, 
-                <span style="color: gray;">Y. Qin<sup>*</sup></span>, 
-                <span style="color: gray;">Y. Qian<sup>*</sup></span>,
-                <span style="color: gray;">Z. Liu</span>, 
-                <span style="color: gray;">W. Zhao</span>
-        </p>
-         <p class="publication-venue">
-                <b>Automation in Construction, 2024</b>
-        </p> 
-        </div>
-        <br>
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-top: 10px;">
-             <a href="https://doi.org/10.1016/j.autcon.2024.105589" style="text-decoration: none; color: blue;">[Paper]</a>
-        </p>
-    </div>
-</div>
-
-<!-- space -->
-<br>
-
 <div class="row">
     <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
         <a href="/assets/images/publications/YOLARC++.png"><img src="/assets/images/publications/YOLARC++.png"></a>
@@ -152,10 +93,7 @@ My detailed resume is linked here ([English CV](/assets/pdf/cv.pdf) · [中文�
         </p>
     </div>
 </div>
-
 <!-- space -->
-<br>
-
 <div class="row">
     <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
         <a href="/assets/images/publications/Unknown.png"><img src="/assets/images/publications/Unknown.png"></a>
@@ -181,10 +119,9 @@ My detailed resume is linked here ([English CV](/assets/pdf/cv.pdf) · [中文�
         </p>
     </div>
 </div>
-
 <!-- space -->
-<br>
 
+<br>
 <div class="row">
     <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
         <a href="/assets/images/publications/framework.png"><img src="/assets/images/publications/framework.png"></a>
@@ -218,10 +155,9 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
         </p>
     </div>
 </div>
-
 <!-- space -->
-<br>
 
+<br>
 <div class="row">
     <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
         <a href="/assets/images/publications/SRLF.png"><img src="/assets/images/publications/SRLF.png"></a>
@@ -249,31 +185,86 @@ Autonomous UAV-based intelligent inspection framework for rail transit infrastru
         </p>
     </div>
 </div>
-
 <!-- space -->
-<br>
 
+<br>
 <div class="row">
     <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
-        <a href="/assets/images/publications/continue_learning.png"><img src="/assets/images/publications/continue_learning.png"></a>
+        <a href="/assets/images/publications/DRL.png"><img src="/assets/images/publications/DRL.png"></a>
     </div>
     <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>A class-added rail transit infrastructure object detection method using UAV aerial imagery based on self-ensemble masks and frequency-spatial calibration</b></p>
+        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>A subtle defect recognition method for catenary fastener in high-speed railroad using destruction and reconstruction learning</b></p>
         <div class="publication-meta">
         <p class="publication-authors">
-                <span style="color: gray;">F. Qin<sup>#</sup></span>, 
-                <span style="color: gray;">C. Yu<sup>*</sup></span>,
-                <span style="color: gray;">Y. Qin</span>, 
-                <span style="color: gray;">N. Qiu</span>,
-                <u><b>F. Meng</b></u>
+                <u><b>F. Meng</b></u>, 
+                <span style="color: gray;">Y. Qin<sup>*</sup></span>, 
+                <span style="color: gray;">Y. Wu<sup>*</sup></span>,
+                <span style="color: gray;">C. Shao</span>, 
+                <span style="color: gray;">L. Jia</span>
         </p>
          <p class="publication-venue">
-                <b>Advanced Engineering Informatics, 2026</b>
+                <b>Advanced Engineering Informatics, 2024</b>
         </p> 
         </div>
         <br>
         <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-top: 10px;">
-             <a href="https://10.1016/j.aei.2025.104137" style="text-decoration: none; color: blue;">[Paper]</a>
+             <a href="https://doi.org/10.1016/j.aei.2024.102393" style="text-decoration: none; color: blue;">[Paper]</a>
+        </p>
+    </div>
+</div>
+<!-- space -->
+
+<br>
+<div class="row">
+    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
+        <a href="/assets/images/publications/CSGAN.png"><img src="/assets/images/publications/CSGAN.png"></a>
+    </div>
+    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
+        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>Automated anomaly detection of catenary split pins using unsupervised learning</b></p>
+        <div class="publication-meta">
+        <p class="publication-authors">
+                <span style="color: gray;">Y. Wu<sup>＃</sup></span>,
+                <u><b>F. Meng<sup>＃</sup></b></u>, 
+                <span style="color: gray;">Y. Qin<sup>*</sup></span>, 
+                <span style="color: gray;">Y. Qian<sup>*</sup></span>,
+                <span style="color: gray;">Z. Liu</span>, 
+                <span style="color: gray;">W. Zhao</span>
+        </p>
+         <p class="publication-venue">
+                <b>Automation in Construction, 2024</b>
+        </p> 
+        </div>
+        <br>
+        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-top: 10px;">
+             <a href="https://doi.org/10.1016/j.autcon.2024.105589" style="text-decoration: none; color: blue;">[Paper]</a>
+        </p>
+    </div>
+</div>
+<!-- space -->
+
+<br>
+<div class="row">
+    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
+        <a href="/assets/images/publications/YOLARC.png"><img src="/assets/images/publications/YOLARC.png"></a>
+    </div>
+    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
+        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>UAV imagery based potential safety hazard evaluation for high-speed railroad using Real-time instance segmentation</b></p>
+        <div class="publication-meta">
+        <p class="publication-authors">
+                <span style="color: gray;">Y. Wu<sup>＃</sup></span>,
+                <u><b>F. Meng<sup>＃</sup></b></u>, 
+                <span style="color: gray;">Y. Qin<sup>*</sup></span>, 
+                <span style="color: gray;">Y. Qian<sup>*</sup></span>,
+                <span style="color: gray;">F. Xu</span>, 
+                <span style="color: gray;">L. Jia</span>
+        </p>
+         <p class="publication-venue">
+                <b>Advanced Engineering Informatics, 2023</b>
+        </p> 
+        </div>
+        <br>
+        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-top: 10px;">
+             <a href="https://doi.org/10.1016/j.aei.2022.101819" style="text-decoration: none; color: blue;">[Paper]</a>
         </p>
     </div>
 </div>
